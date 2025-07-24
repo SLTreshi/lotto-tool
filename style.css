@@ -1,45 +1,26 @@
----
-
-✅ 2. `style.css`
-
 ```css
 body {
-  font-family: sans-serif;
-  background: #f9f9f9;
+  font-family: "Noto Sans Sinhala", sans-serif;
+  background-color: #f9f9f9;
   color: #222;
+  text-align: center;
   padding: 20px;
-  transition: all 0.3s;
-}
-
-body.dark {
-  background: #111;
-  color: #eee;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
 }
 
 button {
-  margin-top: 10px;
-  padding: 10px;
-background: #3498db;
+  padding: 10px 20px;
+  background-color: #007bff;
   color: white;
   border: none;
   cursor: pointer;
 }
 
-#prediction {
+canvas {
   margin-top: 20px;
-  padding: 15px;
-  background: #fff;
-  border: 1px solid #ccc;
-}
-
-body.dark #prediction {
-  background: #222;
-  border-color: #555;
 }
 ```
-
