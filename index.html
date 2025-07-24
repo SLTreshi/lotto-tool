@@ -1,0 +1,37 @@
+---
+
+✅ 1. `index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <title>ලංකා ලොතරැයි විශ්ලේෂකය</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>ලොතරැයි අංක විශ්ලේෂකය 🇱🇰</h1>
+
+    <label>ලොතරැයි වර්ගය තෝරන්න:</label>
+    <select id="lottoType">
+      <option value="Mahajana">Mahajana Sampatha</option>
+      <option value="Govi">Govi Setha</option>
+    </select>
+
+    <input type="file" id="csvInput" accept=".csv">
+    <button onclick="analyzeCSV()">විශ්ලේෂණය කරන්න</button>
+
+    <div id="prediction"></div>
+    <canvas id="chart" width="400" height="200"></canvas>
+
+    <button onclick="toggleDarkMode()">🌙/☀️</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+```
+
